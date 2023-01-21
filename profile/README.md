@@ -18,13 +18,22 @@ Then to sync up:
 repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 ```
 
+Setting up build environment:
+----------------
+
 ```bash
 . build/envsetup.sh
 ```
 
+Lunch:
+----------------
+
 ```bash
 lunch shirayuki_<device_name>-userdebug
 ```
+
+Build it:
+----------------
 
 ```bash
 mka shirayuki
