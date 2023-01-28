@@ -10,6 +10,13 @@ command like this:
 ```bash
 repo init -u https://github.com/shirayuki-prjkt/yuki_manifest.git -b tsushima-13
 ```
+
+(AOSP/OmniROM based | Unstable) To initialize your local repository, use a 
+command like this:
+
+```bash
+repo init -u https://github.com/shirayuki-prjkt/yuki_manifest.git -b tsushima-13-aosp
+```
   
 Then to sync up:
 ----------------
