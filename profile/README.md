@@ -17,6 +17,13 @@ command like this:
 ```bash
 repo init -u https://github.com/shirayuki-prjkt/yuki_manifest.git -b tsushima-13-aosp
 ```
+
+(BrokenLab/LineageOS based | Unstable) To initialize your local repository, use a 
+command like this:
+
+```bash
+repo init -u https://github.com/shirayuki-prjkt/yuki_manifest.git -b tsushima-13-lineage
+```
   
 Then to sync up:
 ----------------
